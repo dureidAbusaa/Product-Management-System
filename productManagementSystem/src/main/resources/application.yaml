@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: productManagementSystem
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/productmanagementsystemDB
+    username: root
+    password: "19ahmad90@A"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8080
